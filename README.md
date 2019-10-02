@@ -21,14 +21,16 @@ The first AML challenge for this year is adapted from the well-known 'Zillow's H
 Overview
 Beyond simply producing a well-performing model for making predictions, in this challenge we would like you to start developing your skills as a machine learning scientist. In this regard, your notebook should be structured in such a way as to explore the five following tasks that are expected to be carried out whenever undertaking such a project. The description below each aspect should serve as a guide for your work, but you are strongly encouraged to also explore alternative options and directions. Thinking outside the box will always be rewarded in these challenges.
 
-1. Data Exploration
+**1. Data Exploration**
+
 The first broad component of your notebook should enable you to familiarise yourselves with the given data, an outline of which is given at the end of this challenge specification. Among others, this section should investigate:
 - Data cleaning, e.g. treatment of categorial variables;
 - Data visualisation;
 - Computing descriptive statistics, e.g. correlation.
 - etc.
 
-2. Data Pre-processing
+**2. Data Pre-processing**
+
 The previous step should give you a better understanding of which pre-processing is required for the data. This may include:
 - Normalising and standardising the given data;
 - Removing outliers;
@@ -37,7 +39,8 @@ The previous step should give you a better understanding of which pre-processing
 - Augmenting the dataset with external information;
 - Combining existing features.
 
-3. Model Selection
+**3. Model Selection**
+
 Perhaps the most important segment of this challenge involves the selection of a model that can successfully handle the given data and yield sensible predictions. Instead of focusing exclusively on your final chosen model, it is also important to share your thought process in this notebook by additionally describing alternative candidate models. There is a wealth of models to choose from, such as decision trees, random forests, (Bayesian) neural networks, Gaussian processes, LASSO regression, and so on. There are several factors which may influence your decision:
 - What is the model's complexity?
 - Is the model interpretable?
@@ -45,10 +48,12 @@ Perhaps the most important segment of this challenge involves the selection of a
 - Does the model return uncertainty estimates along with predictions?
 - An in-depth evaluation of competing models in view of this and other criteria will elevate the quality of your submission and earn you a higher grade.
 
-4. Parameter Optimisation
+**4. Parameter Optimisation**
+
 Irrespective of your choice, it is highly likely that your model will have one or more parameters that require tuning. There are several techniques for carrying out such a procedure, including cross-validation, Bayesian optimisation, and several others. As before, an analysis into which parameter tuning technique best suits your model is expected before proceeding with the optimisation of your model.
 
-5. Model Evaluation
+**5. Model Evaluation**
+
 Some form of pre-evaluation will inevitably be required in the preceding sections in order to both select an appropriate model and configure its parameters appropriately. In this final section, you may evaluate other aspects of the model such as:
 - Assessing the running time of your model;
 - Determining whether some aspects can be parallelised;
